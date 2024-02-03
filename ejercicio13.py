@@ -16,4 +16,3 @@ def menu_contar_caracter():
 
 if __name__ == '__main__':
     menu_contar_caracter()
-
