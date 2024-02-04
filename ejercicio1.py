@@ -1,8 +1,16 @@
 from rich.console import Console
 import utils
 
-console = Console()
 
+console = Console()
+"""
+ E01: En este problema, los datos de entrada son los dos valores enteros que ingresará el usuario a 
+través del teclado (los llamaremos a y b) y la salida será su cociente (un número flotante). Ahora 
+bien, existe la posibilidad de que el usuario ingrese como segundo valor el número 0 (cero). En 
+este caso, no podremos mostrar el cociente ya que la división por cero es una indeterminación, así 
+que tendremos que emitir un mensaje informando las causas por las cuales no se podrá efectuar 
+la operación.
+"""
 
 def menu_division():
     """

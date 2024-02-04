@@ -3,8 +3,16 @@ import utils
 
 console = Console()
 
+"""
+ E12: Se debe de ingresar un numero por el usuario, este debe de ser evaluado para verificar que el 
+número de cifras sea par y verificar si el número es capicúa o no
+"""
+
 
 def menu_par_capicua():
+    """
+        Metodo para saber si un numero es par y capicua
+    """
     console.print("-----NUMERO PAR Y CAPICUA-----", style="bold cyan")
     console.print("Ingrese el numero deseado", style="bold deep_pink3")
     numero = utils.texto_a_numero(input())

@@ -4,6 +4,14 @@ from rich.console import Console
 
 console = Console()
 
+"""
+ E05: En este problema Se ingresa un valor numérico de 8 dígitos que representa una fecha con el 
+siguiente formato: aaaammdd. Esto es: los 4 primeros dígitos representan el año, los siguientes 2 
+dígitos representan el mes y los 2 dígitos restantes representan el día. Se pide informar por 
+separado el día, el mes y el año de la fecha ingresada. Para su solución se debe de hacer uso de 
+divisiones, operador modulo y conversión de double a entero.
+"""
+
 
 def validar_fecha(cadena: str, formato: str = '%Y%m%d') -> bool:
     try:

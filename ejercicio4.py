@@ -3,6 +3,14 @@ import utils
 
 console = Console()
 
+"""
+ E04: En este problema tenemos un único dato de entrada: un valor numérico entero que deberá 
+ingresar el usuario. La salida del algoritmo será informar si el numero ingresado por el usuario es 
+múltiplo de 2 y 3. Sabemos que un número es múltiplo de otro cuando al dividir estos dos 
+números el residuo sea 0. Si el usuario ingresó un valor negativo o cero tendremos que emitir un 
+mensaje informando las causas por las cuales no se podrá efectuar la operación.
+"""
+
 
 def menu_multiplo_2_3():
     """

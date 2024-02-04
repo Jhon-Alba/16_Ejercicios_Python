@@ -3,7 +3,14 @@ import utils
 
 console = Console()
 
-
+"""
+E02: En este problema tenemos un único dato de entrada: un valor numérico entero que deberá 
+ingresar el usuario. La salida del algoritmo será informar si el usuario ingresó un valor par o impar. 
+Sabemos que un número par es aquel que es divisible por 2 o, también, que un número es par si el 
+valor residual que se obtiene al dividirlo por 2 es cero. Según lo anterior, podremos informar que 
+el número ingresado por el usuario es par si al dividirlo por 2 obtenemos un resto igual a cero. De 
+lo contrario, informaremos que el número es impar.
+"""
 def menu_par_o_impar():
     """
     Metodo para saber si un numero es par o impar

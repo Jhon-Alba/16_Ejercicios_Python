@@ -2,9 +2,17 @@ from rich.console import Console
 import utils
 
 console = Console()
+"""
+E10: Dado un número (leído por teclado), que representa los segundos que ha invertido una 
+persona en hacer un examen, determinar cuántas horas, minutos y segundos ha invertido. 
+Imprima el resultado por pantalla.
+"""
 
 
 def menu_segundos():
+    """
+        Metodo para saber cuantos horas y minutos invirtio en una evaluacion
+    """
     console.print("-----SEGUNDOS INVERTIDOS EN EVALUACION-----", style="bold cyan")
     console.print("Ingrese los segundos invertidos", style="bold deep_pink3")
     segundos = utils.texto_a_numero(input())

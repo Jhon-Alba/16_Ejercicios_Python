@@ -3,6 +3,8 @@ import ejercicio11
 import ejercicio12
 import ejercicio13
 import ejercicio14
+import ejercicio15
+import ejercicio16
 import ejercicio5_8
 import ejercicio6
 import ejercicio7
@@ -18,6 +20,7 @@ import ejercicio4
 console = Console()
 
 
+# Probar en terminal, ahi se ven los colores
 def menu():
     while True:
         print("")
@@ -40,6 +43,8 @@ def menu():
         table.add_row("12", "Numero par y capicua")
         table.add_row("13", "Contar un caracter en una cadena de caracteres")
         table.add_row("14", "Saber si una palabra es palindroma")
+        table.add_row("15", "Convertir numeros a letras")
+        table.add_row("16", "Capitalizar una frase")
         table.add_row("0", "Salir")
         console.print(table)
         console.print("Digite aqui: ", style="bold underline medium_purple1")
@@ -72,6 +77,10 @@ def menu():
             ejercicio13.menu_contar_caracter()
         elif opcion == 14:
             ejercicio14.menu_palabra_palindroma()
+        elif opcion == 15:
+            ejercicio15.menu_palabras()
+        elif opcion == 16:
+            ejercicio16.menu_frase()
         elif opcion == 0:
             console.print("El programa ha termidado correctamente :smiley:", style="bold green4")
             exit(0)

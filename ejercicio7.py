@@ -1,11 +1,19 @@
 import utils
-import math
 from rich.console import Console
 
 console = Console()
 
+"""
+E07: Calcular la hipotenusa de un triángulo, teniendo como base el valor del cateto 1 y 2 que serán 
+dados por el usuario. Para esto debe de hacer uso del Teorema de Pitágoras en el cálculo de la 
+hipotenusa teniendo los catetos. (h= √(a^2 )+b^2) no se debe hacer uso de la librería Math.hypot
+"""
+
 
 def menu_hipotenusa():
+    """
+        Metodo para calcular la hiptenusa de un triangulo
+    """
     console.print("-----CALCULAR HIPOTENUSA DE UN TRIANGULO-----", style="bold cyan")
     console.print("Ingrese el primer cateto", style="bold deep_pink3")
     cateto1 = utils.texto_a_numero(input())
